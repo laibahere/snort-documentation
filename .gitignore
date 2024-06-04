@@ -1,0 +1,5 @@
+.DS_Store
+snortenv/
+docs/build/
+docs/source/templates/
+
