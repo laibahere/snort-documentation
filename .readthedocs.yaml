@@ -29,10 +29,14 @@ dependencies:
     - sphinx-rtd-theme
 
 # Build process customization
-# Use 'make html' to build the documentation
+# Specify the output formats for the documentation build
 formats:
-  - package
+  - htmlzip
+  - pdf
+  - epub
 
 # Additional notes
 # Customize further based on your project's specific requirements and structure
+
+
 
