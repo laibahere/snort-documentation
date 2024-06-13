@@ -26,7 +26,7 @@ Make sure you have installed:
 2. **Install the required packages:**
 
     ```bash
-    pip install sphinx sphinx-rtd-theme
+    pip install  sphinx-rtd-theme
     ```
 
 3. **Run Virtual Environment:**
