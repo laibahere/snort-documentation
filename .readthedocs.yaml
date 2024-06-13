@@ -15,7 +15,7 @@ build:
 # Python environment configuration
 python:
   install:
-    - requirements: docs/source/requirements.txt  # Path to your requirements.txt file
+    - requirements: docs/requirements.txt  # Path to your requirements.txt file
 
 # Sphinx configuration
 sphinx:
