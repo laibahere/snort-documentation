@@ -1,0 +1,38 @@
+# .readthedocs.yaml configuration file
+
+# Required: specify the version of the configuration file
+version: 2
+
+# Build configuration
+build:
+  # Set the operating system for the build environment
+  os: ubuntu-22.04
+
+  # Specify tools and their versions needed for the build
+  tools:
+    python: "3.12"
+
+# Python environment configuration
+python:
+  install:
+    - requirements: docs/source/requirements.txt  # Path to your requirements.txt file
+
+# Sphinx configuration
+sphinx:
+  configuration: docs/source/conf.py  # Path to your Sphinx configuration file
+
+# Dependencies installation
+dependencies:
+  # Install Sphinx and Sphinx RTD theme using pip
+  pip:
+    - sphinx
+    - sphinx-rtd-theme
+
+# Build process customization
+# Use 'make html' to build the documentation
+formats:
+  - package
+
+# Additional notes
+# Customize further based on your project's specific requirements and structure
+
