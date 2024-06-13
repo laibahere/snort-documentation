@@ -10,9 +10,9 @@ Follow these steps to build and view the documentation on your computer.
 
 Make sure you have installed:
 
-- Python
-- pip
-- Sphinx
+- [Python](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installation/)
+- [Sphinx](https://www.sphinx-doc.org/en/master/usage/installation.html)
 
 #### Steps
 
