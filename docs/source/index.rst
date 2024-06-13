@@ -11,26 +11,30 @@ Snort operates based on a set of custom rules designed for detecting and respond
 
 :ref:`Installation of Snort <setup>`
 
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Foundation:
+
+   ips
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents:
 
    installation
    remember 
    command
    working 
    rule
+   snorpy
+   snowl
    
-.. toctree::
-   :maxdepth: 2
-   :caption: Foundation:
-
-   ips
    
 .. toctree::
    :maxdepth: 2
    :caption: Labs:
    
    brutef
+   snortsensor
 
 
